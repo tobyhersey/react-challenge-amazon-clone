@@ -4,6 +4,7 @@ import "./App.css";
 import Header from "./Header";
 import Home from "./Home";
 import Product from "./Product";
+import Checkout from "./Checkout"
 import { BrowserRouter as Router , Switch , Route} from "react-router-dom";
 
 
@@ -12,9 +13,15 @@ function App() {
     // BEM
     <Router>
       <div className="app">
-        <Header />
-        <Home />
-        <Product />
+        <Header/>
+        <Switch>
+          <Route path="/checkout">
+            <Checkout />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
       </div>
     </Router>
   );
