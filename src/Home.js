@@ -15,10 +15,10 @@ function Home() {
         <div className="home__row">
           <Product
             id="12321341"
-            title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
+            title="Bag of Crack"
             price={11.96}
             rating={5}
-            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
+            image="https://i.imgflip.com/4/29n00g.jpg"
           />
           <Product
             id="49538094"
@@ -32,10 +32,10 @@ function Home() {
         <div className="home__row">
           <Product
             id="4903850"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
+            title="Some baccy of ye pal"
             price={199.99}
             rating={3}
-            image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+            image="https://media.istockphoto.com/photos/top-view-group-of-cigarettes-pack-of-cigarette-on-white-background-picture-id913961384"
           />
           <Product
             id="23445930"
@@ -46,10 +46,10 @@ function Home() {
           />
           <Product
             id="3254354345"
-            title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
+            title="Pint"
             price={598.99}
             rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
+            image="https://m.media-amazon.com/images/I/51XVyIF2g3L.jpg"
           />
         </div>
 
