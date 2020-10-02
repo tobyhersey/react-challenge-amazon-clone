@@ -1,5 +1,5 @@
 import { CardElement, useElements, useStripe } from '@stripe/react-stripe-js';
-import Axios from 'axios';
+import Axios from './axios';
 import React, { useEffect } from 'react'
 import CurrencyFormat from 'react-currency-format';
 import { Link } from 'react-router-dom';
